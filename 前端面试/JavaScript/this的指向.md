@@ -24,7 +24,7 @@ this 可分为以下几种情况：
    	fn();  //  window.fn（),此处默认省略window
    ```
 
-4. 在构造函数调用模式下，this 指向被构造的对象；
+4. 在构造函数调用模式下，this 指向被构造的对象（即实例对象）；
 
    ```javascript
    function Person(age, name) {
