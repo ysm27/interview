@@ -62,7 +62,13 @@ this 可分为以下几种情况：
 
 7. call、apply、bind 调用模式下，this指向第一个参数；
 
-
+   
 
 **优先级: new > call、apply、bind > 对象.方法 > 直接调用。**
 
+
+
+**call、apply、bind 的区别：**
+
+1. 参数不同：call 和 bind 的参数是一个一个传的，apply 是一个数组
+2. 执行时机不同：call 和 apply 是立即调用立即执行，bind 调用后会返回一个函数，调用该函数才执行。
